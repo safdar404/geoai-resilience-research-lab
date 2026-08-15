@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: GeoAI Resilience Research Lab
+message: If you use this research software, please cite it.
+type: software
+authors:
+  - family-names: Safdar
+    given-names: Muhammad
+version: 0.1.0
+date-released: 2026-08-15
+license: MIT
+repository-code: https://github.com/safdar404/geoai-resilience-research-lab
