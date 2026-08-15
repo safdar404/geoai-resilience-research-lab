@@ -1,0 +1,20 @@
+project:
+  name: geoai-resilience-research-lab
+  crs: EPSG:32643
+  operational_claim: research-demonstration
+quality:
+  require_crs: true
+  reject_invalid_geometry: true
+  record_lineage: true
+  spatial_validation: true
+agents:
+  human_approval_required: true
+  minimum_confidence: 0.75
+  permitted_actions:
+    - draft_report
+    - draft_alert
+    - draft_work_order
+  prohibited_actions:
+    - public_warning
+    - equipment_control
+    - automatic_capital_commitment
