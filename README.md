@@ -8,6 +8,16 @@ An open, reproducible research toolkit for advanced urban planning, flood intell
 
 The live suite provides five independent, responsive decision-support workspaces with ArcGIS Pro-style and QGIS-style desktop workbench views, synchronized program results, layer controls, tool selection, attribute tables and export-ready demonstrations.
 
+## Visual overview
+
+[![GeoAI Resilience solution architecture](docs/assets/geoai-solution-architecture.svg)](docs/LIVE_WORKBENCH.md)
+
+### Statistical capability snapshot
+
+![GeoAI Resilience capability infographic](docs/assets/geoai-capability-infographic.svg)
+
+> The infographic reports implemented demonstration coverage, not field-calibrated accuracy or operational performance.
+
 ## Why this repository exists
 
 Many GeoAI demonstrations stop at a map and a score. This repository exposes the analytical core: equations, assumptions, data contracts, validation, uncertainty, automation hooks and reproducible tests. Each module can run independently or participate in an agentic workflow with explicit human approval gates.
