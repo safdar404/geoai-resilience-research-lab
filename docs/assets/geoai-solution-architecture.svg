@@ -5,7 +5,7 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#12001f"/><stop offset="1" stop-color="#2b1242"/></linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".28"/></filter>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0 10 5 0 10z" fill="#f3c64e"/></marker>
-    <style>.h{font:700 38px Arial;fill:#f3c64e}.sub{font:400 18px Arial;fill:#d8c9e5}.t{font:700 20px Arial;fill:#fff}.s{font:400 15px Arial;fill:#d8c9e5}.n{fill:#2d1542;stroke:#76528e;stroke-width:2}.p{fill:#3c1b55;stroke:#f3c64e;stroke-width:2}.line{stroke:#f3c64e;stroke-width:4;fill:none;marker-end:url(#arrow)}</style>
+    <style>.h{font:700 38px Arial;fill:#f3c64e}.sub{font:400 18px Arial;fill:#d8c9e5}.t{font:700 20px Arial;fill:#fff}.s{font:400 15px Arial;fill:#d8c9e5}.n{fill:#2d1542;stroke:#76528e;stroke-width:2}.p{fill:#3c1b55;stroke:#f3c64e;stroke-width:2}.line{stroke:#f3c64e;stroke-width:4;fill:none;marker-end:url(#arrow)}.bus{stroke:#f3c64e;stroke-width:4;fill:none}</style>
   </defs>
   <rect width="1600" height="900" fill="url(#bg)"/>
   <text x="80" y="78" class="h">GeoAI Resilience Intelligence Suite</text>
@@ -25,7 +25,7 @@
     <text x="1295" y="246" class="s">ArcGIS Pro · ArcPy</text><text x="1295" y="272" class="s">QGIS · PyQGIS · GDAL</text><text x="1295" y="298" class="s">PostGIS · Rasterio · APIs</text>
   </g>
   <path d="M370 255H460" class="line"/><path d="M770 255H860" class="line"/><path d="M1170 255H1260" class="line"/>
-  <text x="80" y="425" class="h" font-size="28">Five independent problem-solving programs</text>
+  <text x="80" y="390" class="h" font-size="28">Five independent problem-solving programs</text>
   <g filter="url(#shadow)">
     <rect x="70" y="465" width="270" height="150" rx="16" class="p"/><text x="95" y="505" class="t">Urban Intelligence</text><text x="95" y="540" class="s">Suitability · access</text><text x="95" y="566" class="s">constraints · growth ranking</text>
     <rect x="370" y="465" width="270" height="150" rx="16" class="p"/><text x="395" y="505" class="t">Flood Intelligence</text><text x="395" y="540" class="s">Hazard · exposure</text><text x="395" y="566" class="s">access · response priority</text>
@@ -33,9 +33,16 @@
     <rect x="970" y="465" width="270" height="150" rx="16" class="p"/><text x="995" y="505" class="t">Drainage Lab</text><text x="995" y="540" class="s">Runoff · capacity</text><text x="995" y="566" class="s">surcharge · mitigation</text>
     <rect x="1270" y="465" width="260" height="150" rx="16" class="p"/><text x="1295" y="505" class="t">Earth Change AI</text><text x="1295" y="540" class="s">Indices · classification</text><text x="1295" y="566" class="s">change · accuracy · QA</text>
   </g>
-  <path d="M800 350V445" class="line"/>
+  <!-- One validated state branches to every analytical program. -->
+  <path d="M1020 340V420" class="bus"/>
+  <path d="M205 420H1400" class="bus"/>
+  <path d="M205 420V455" class="line"/><path d="M505 420V455" class="line"/>
+  <path d="M805 420V455" class="line"/><path d="M1105 420V455" class="line"/>
+  <path d="M1400 420V455" class="line"/>
   <g filter="url(#shadow)"><rect x="180" y="700" width="360" height="120" rx="18" class="n"/><text x="210" y="742" class="t">Decision interfaces</text><text x="210" y="776" class="s">ArcGIS/QGIS workbenches · dashboards</text><text x="210" y="802" class="s">attribute tables · maps · reports</text>
     <rect x="620" y="700" width="360" height="120" rx="18" class="n"/><text x="650" y="742" class="t">Interoperable outputs</text><text x="650" y="776" class="s">GeoJSON · CSV · GeoPackage · services</text><text x="650" y="802" class="s">metrics · logs · confidence · lineage</text>
     <rect x="1060" y="700" width="360" height="120" rx="18" class="n"/><text x="1090" y="742" class="t">Agent-ready action</text><text x="1090" y="776" class="s">Recommendations · approval gates</text><text x="1090" y="802" class="s">work orders · alerts · audit trail</text></g>
-  <path d="M800 630V680H360V690" class="line"/><path d="M800 630V690" class="line"/><path d="M800 630V680H1240V690" class="line"/>
+  <!-- All five program results converge into the shared delivery layer. -->
+  <path d="M205 615V660M505 615V660M805 615V660M1105 615V660M1400 615V660M205 660H1400" class="bus"/>
+  <path d="M360 660V690" class="line"/><path d="M800 660V690" class="line"/><path d="M1240 660V690" class="line"/>
 </svg>
