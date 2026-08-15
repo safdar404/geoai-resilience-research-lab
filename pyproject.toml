@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geoai-resilience-research-lab"
+version = "0.1.0"
+description = "Reproducible GeoAI methods for urban, flood, utility, drainage and Earth-observation research"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Muhammad Safdar"}]
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+api = ["fastapi>=0.115", "uvicorn>=0.30", "pydantic>=2.8"]
+geo = ["geopandas>=1.0", "rasterio>=1.4", "shapely>=2.0", "pyproj>=3.7", "networkx>=3.3", "osmnx>=2.0"]
+test = ["pytest>=8.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
