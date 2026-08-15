@@ -4,6 +4,10 @@ An open, reproducible research toolkit for advanced urban planning, flood intell
 
 > **Status:** research software and decision-support reference implementation. It is not a substitute for calibrated engineering models, authoritative agency data or field verification.
 
+[**Open the live GeoAI Resilience Intelligence Suite →**](https://geoai-resilience-intelligence-suite.neat-grove-8624.chatgpt.site/)
+
+The live suite provides five independent, responsive decision-support workspaces with ArcGIS Pro-style and QGIS-style desktop workbench views, synchronized program results, layer controls, tool selection, attribute tables and export-ready demonstrations.
+
 ## Why this repository exists
 
 Many GeoAI demonstrations stop at a map and a score. This repository exposes the analytical core: equations, assumptions, data contracts, validation, uncertainty, automation hooks and reproducible tests. Each module can run independently or participate in an agentic workflow with explicit human approval gates.
@@ -17,6 +21,24 @@ Many GeoAI demonstrations stop at a map and a score. This repository exposes the
 | Utility Guardian | Which network assets are most likely to fail and matter most? | transparent failure likelihood × graph consequence | WNTR/EPANET hydraulics, SCADA anomalies, GNN asset models |
 | Drainage Lab | Where does runoff exceed system capacity? | Rational Method, capacity gap and surcharge classification | SWMM/PySWMM, GNN surrogate, MPC/RL control |
 | Earth Change AI | What changed between observations and how certain is it? | NDVI/NDBI, confidence-filtered change masks and area accounting | STAC, TorchGeo, SAM/GeoAI, temporal transformers |
+
+## Live workbench coverage
+
+| Program | ArcGIS Pro-style workflow | QGIS-style workflow | Demonstrated output |
+|---|---|---|---|
+| Urban Intelligence | Suitability Modeler, Weighted Overlay, Network Analyst, Spatial Join | QGIS Processing, raster calculator, proximity and constraint overlay | ranked growth zones, composite score, constraints and confidence |
+| Flood Intelligence | flood exposure, route access and priority geoprocessing | GDAL/QGIS hazard overlay and zonal summaries | priority areas, affected features and response ranking |
+| Utility Guardian | asset screening, network tracing and consequence analysis | QGIS network and field-calculator workflow | risk-ranked assets, criticality and inspection priority |
+| Drainage Lab | catchment, flow-path and surcharge workflow | DEM hydrology and drainage-capacity processing | surcharge nodes, capacity gaps and mitigation priorities |
+| Earth Change AI | imagery, change detection and accuracy assessment | raster change workflow and QA sampling | change polygons, class transitions, area and confidence |
+
+Both desktop views expose program-specific layers and analytical records. Layer visibility, map controls, selected tools, workflow status and attribute-table content are synchronized inside the live demonstration.
+
+### Important execution boundary
+
+The web workbench is an interactive, deterministic demonstration. It does **not** launch licensed ArcGIS Pro or a locally installed QGIS application from the browser, and it does not claim that ArcPy, QGIS Processing, ERDAS IMAGINE, PySWMM or GPU models execute inside the webpage. Native execution requires the relevant desktop/server environment, licensed extensions where applicable, configured data sources and credentials.
+
+See [LIVE_WORKBENCH.md](docs/LIVE_WORKBENCH.md) for the five-program interface and integration contract.
 
 ## Quick start
 
