@@ -24,15 +24,15 @@ Each visual is a complete program-specific cartographic layout with thematic sym
 
 | Urban suitability | Flood intelligence |
 |---|---|
-| ![Urban Intelligence GIS suitability analysis](docs/assets/gis-urban-intelligence.svg) | ![Flood Intelligence exposure and response analysis](docs/assets/gis-flood-intelligence.svg) |
+| ![Urban Intelligence GIS suitability analysis](docs/assets/gis-urban-intelligence.webp) | ![Flood Intelligence exposure and response analysis](docs/assets/gis-flood-intelligence.webp) |
 
 | Utility-network risk | Drainage and surcharge |
 |---|---|
-| ![Utility Guardian network risk analysis](docs/assets/gis-utility-guardian.svg) | ![Drainage Lab runoff and surcharge analysis](docs/assets/gis-drainage-lab.svg) |
+| ![Utility Guardian network risk analysis](docs/assets/gis-utility-guardian.webp) | ![Drainage Lab runoff and surcharge analysis](docs/assets/gis-drainage-lab.webp) |
 
 | Earth-observation change detection |
 |---|
-| ![Earth Change AI land-cover change analysis](docs/assets/gis-earth-change-ai.svg) |
+| ![Earth Change AI land-cover change analysis](docs/assets/gis-earth-change-ai.webp) |
 
 > These are portfolio-grade sample analytical maps. Values illustrate the workflow and must not be interpreted as authoritative field observations.
 
