@@ -20,7 +20,7 @@ The live suite provides five independent, responsive decision-support workspaces
 
 ## GIS analysis gallery
 
-Each visual represents a different program-specific analytical workflow and uses clearly identified sample metrics.
+Each visual is a complete program-specific cartographic layout with thematic symbology, coordinate grid, north arrow, scale bar, legend, locator inset, CRS, units, data source, preparation date, authorship and clearly identified sample metrics.
 
 | Urban suitability | Flood intelligence |
 |---|---|
