@@ -18,21 +18,21 @@ The live suite provides five independent, responsive decision-support workspaces
 
 > The infographic reports implemented demonstration coverage, not field-calibrated accuracy or operational performance.
 
-## GIS analysis gallery
+## GIS analysis gallery — five Punjab city programs
 
-Each visual is a complete program-specific cartographic layout with thematic symbology, coordinate grid, north arrow, scale bar, legend, locator inset, CRS, units, data source, preparation date, authorship and clearly identified sample metrics.
+The same production visual is used in the research repository, professional portfolio and live ArcGIS Pro/QGIS screen simulators. Each visual is a complete program-specific cartographic layout with thematic symbology, coordinate grid, north arrow, scale bar, legend, locator inset, CRS, units, data source, preparation date, authorship and clearly identified sample metrics.
 
 | Urban suitability | Flood intelligence |
 |---|---|
-| ![Urban Intelligence GIS suitability analysis](docs/assets/gis-urban-intelligence.webp) | ![Flood Intelligence exposure and response analysis](docs/assets/gis-flood-intelligence.webp) |
+| ![Urban Intelligence GIS suitability analysis](https://geoai-resilience-intelligence-suite.neat-grove-8624.chatgpt.site/maps/gis-urban-intelligence.webp) | ![Flood Intelligence exposure and response analysis](https://geoai-resilience-intelligence-suite.neat-grove-8624.chatgpt.site/maps/gis-flood-intelligence.webp) |
 
 | Utility-network risk | Drainage and surcharge |
 |---|---|
-| ![Utility Guardian network risk analysis](docs/assets/gis-utility-guardian.webp) | ![Drainage Lab runoff and surcharge analysis](docs/assets/gis-drainage-lab.webp) |
+| ![Utility Guardian network risk analysis](https://geoai-resilience-intelligence-suite.neat-grove-8624.chatgpt.site/maps/gis-utility-guardian.webp) | ![Drainage Lab runoff and surcharge analysis](https://geoai-resilience-intelligence-suite.neat-grove-8624.chatgpt.site/maps/gis-drainage-lab.webp) |
 
 | Earth-observation change detection |
 |---|
-| ![Earth Change AI land-cover change analysis](docs/assets/gis-earth-change-ai.webp) |
+| ![Earth Change AI land-cover change analysis](https://geoai-resilience-intelligence-suite.neat-grove-8624.chatgpt.site/maps/gis-earth-change-ai.webp) |
 
 > These are portfolio-grade sample analytical maps. Values illustrate the workflow and must not be interpreted as authoritative field observations.
 
