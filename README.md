@@ -18,6 +18,24 @@ The live suite provides five independent, responsive decision-support workspaces
 
 > The infographic reports implemented demonstration coverage, not field-calibrated accuracy or operational performance.
 
+## GIS analysis gallery
+
+Each visual represents a different program-specific analytical workflow and uses clearly identified sample metrics.
+
+| Urban suitability | Flood intelligence |
+|---|---|
+| ![Urban Intelligence GIS suitability analysis](docs/assets/gis-urban-intelligence.svg) | ![Flood Intelligence exposure and response analysis](docs/assets/gis-flood-intelligence.svg) |
+
+| Utility-network risk | Drainage and surcharge |
+|---|---|
+| ![Utility Guardian network risk analysis](docs/assets/gis-utility-guardian.svg) | ![Drainage Lab runoff and surcharge analysis](docs/assets/gis-drainage-lab.svg) |
+
+| Earth-observation change detection |
+|---|
+| ![Earth Change AI land-cover change analysis](docs/assets/gis-earth-change-ai.svg) |
+
+> These are portfolio-grade sample analytical maps. Values illustrate the workflow and must not be interpreted as authoritative field observations.
+
 ## Why this repository exists
 
 Many GeoAI demonstrations stop at a map and a score. This repository exposes the analytical core: equations, assumptions, data contracts, validation, uncertainty, automation hooks and reproducible tests. Each module can run independently or participate in an agentic workflow with explicit human approval gates.
